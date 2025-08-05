@@ -3,11 +3,14 @@
 // accepts an Animal and calls makeSound() —show polymorphism in action.
 
 class Animal {
+  // Base class Animal with a method makeSound
+  // that can be overridden by subclasses.
   void makeSound() {
     print("Animal makes a sound");
   }
 }
 
+// Subclass Dog that overrides makeSound method
 class Dog extends Animal {
   @override
   void makeSound() {
@@ -15,6 +18,7 @@ class Dog extends Animal {
   }
 }
 
+// Subclass Cat that overrides makeSound method
 class Cat extends Animal {
   @override
   void makeSound() {

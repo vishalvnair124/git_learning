@@ -2,6 +2,8 @@
 // prints: "Hello [name], you are [age] years old." Use named and required parameters.
 
 void greetUser({required String name, required int age}) {
+  // Using named parameters with required keyword
+  // to ensure that both parameters are provided.
   print("Hello $name, you are $age years old.");
 }
 

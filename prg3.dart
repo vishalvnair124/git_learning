@@ -5,6 +5,7 @@ void main() {
   int a = 0, b = 1;
 
   print('Fibonacci series up to $n terms:');
+  //Using a for loop to generate the series
   for (int i = 0; i < n; i++) {
     print(a);
     int next = a + b;

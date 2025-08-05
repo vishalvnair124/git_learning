@@ -7,7 +7,6 @@ void main() {
 
   // Calculate simple interest
   double simpleInterest = (principal * rate * time) / 100;
-
   print(
     'The simple interest for a principal of \$${principal}, rate of ${rate}% and time of ${time} years is: \$${simpleInterest}',
   );

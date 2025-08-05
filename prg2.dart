@@ -3,7 +3,7 @@
 
 void main() {
   String day = 'Saturday';
-
+  // Using switch-case to determine if the day is a Weekday or Weekend
   switch (day) {
     case 'Monday':
     case 'Tuesday':
@@ -16,6 +16,8 @@ void main() {
     case 'Sunday':
       print('$day is a Weekend.');
       break;
+    // If the input does not match any case
+    // it will fall through to the default case.
     default:
       print('Invalid day input.');
   }

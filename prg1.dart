@@ -6,9 +6,9 @@ void main() {
   int age = 21;
   double height = 5.7;
   bool isStudent = false;
-
+  // Using string interpolation to create a formatted sentence
   String sentence =
       'My name is $name, I am $age years old, my height is $height feet, and it is ${isStudent} that I am a student.';
-
+  // Using string interpolation to format the sentence
   print(sentence);
 }
